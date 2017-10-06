@@ -1,0 +1,173 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<head>
+   
+       
+        <script type="text/javascript">
+            // JavaScript source code
+function date_time(id) {
+    date = new Date;
+    year = date.getFullYear();
+    month = date.getMonth();
+    months = new Array('January', 'February', 'March', 'April', 'May', 'June', 'Jully', 'August', 'September', 'October', 'November', 'December');
+    d = date.getDate();
+    day = date.getDay();
+    days = new Array('Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday');
+    h = date.getHours();
+    if (h < 10) {
+        h = "0" + h;
+    }
+    m = date.getMinutes();
+    if (m < 10) {
+        m = "0" + m;
+    }
+    s = date.getSeconds();
+    if (s < 10) {
+        s = "0" + s;
+    }
+    result = '' + days[day] + ' ' + months[month] + ' ' + d + ' ' + year + ' ' + h + ':' + m + ':' + s;
+    document.getElementById(id).innerHTML = result;
+    setTimeout('date_time("' + id + '");', '1000');
+    return true;
+}
+        </script>
+        <style>
+                  title {
+                  }
+                   header {
+      float: left;
+      margin:0 0 30px 0;
+      padding: px 0 0 0 ;
+      width: 100%;
+
+    }
+                  body {
+                      background-color:Azure;
+                      border: 10px double
+
+                  }
+
+                  h1 {
+                      color: blue
+                  }
+
+                  p {
+                      border: 1px double DodgerBlue;
+                  }
+
+                  strong {
+                      padding: 20px
+                  }
+
+                  #container{width:100%;}
+      #left{float:left;width:300px;}
+      #right{float:right;width:300px;}
+      #center{margin:0 auto;width:300px;display: inline-block;}
+                          div{
+            
+                width:auto;
+                height:auto;
+                padding:10px;
+              }
+
+    </style>
+        <meta charset="utf-8" />
+        <title> MyRegulars</title>
+
+
+</head>
+<body>
+    <div class="w3-panel w3-blue w3-card-4 w3-xlarge w3-serif">
+        <h1 style="color:white ;font-size:xx-large;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;text-align:">
+            <b>
+                CONVERGYS WORK ESSENTIALS
+               
+            </b>
+            
+        </h1>
+        </div>
+    
+        <div align="left">
+            <h3 style="font-size: large; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif">
+
+                <center>
+                    <i>
+                        <span id="date_time"></span>
+
+                        <script type="text/javascript">window.onload = date_time('date_time');</script>
+                    </i>
+                </center> 
+                
+</h3>
+        </div>
+    
+   
+
+                   
+
+                   <hr />
+                               
+    <div style="text-align:center;padding:0px">
+        
+
+            <a href="https://my.convergys.com" style="color:blue;text-align:match-parent;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;" target="_blank">CONVERGYS PORTAL</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://ecoaching5.convergys.com/" style="color:blue;text-align:match-parent;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;" target="_blank">E-COACHING PORTAL</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://besawv006.india.convergys.com/mycis" style="color:blue;text-align:match-parent;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;" target="_blank">MyCIS</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://portal0012.globalview.adp.com/gvolution/home/Convergys" style="color:blue;text-align:match-parent;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;" target="_blank">ADP GlobalView</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://my.convergys.com/pdcredir/PdcRedirect" style="color:blue;text-align:match-parent;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;" target="_blank">CONVERGYS UNIVERSITY(PDC COURSES)</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </div>
+    <div class="w3-panel w3-white w3-card-4 w3-large w3-serif w3-2px">
+       
+        <Center>
+
+            <div id="left">
+          
+                <ul style="list-style-type:disc;text-align:left">
+                    <LH class="w3-container " style="font-size:large;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif"><b><u>Convergys Quicks:</u></b> </LH>
+                    <li><a href="http://estartcvg.na.convergys.com/" style="color:cornflowerblue;text-align:match-parent;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-size:medium" target="_blank">Login to ESTART</a></li>
+                    <li><a href="https://owa.agent.cvgs.net/owa" style="color:cornflowerblue;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-size:medium" target="_blank"> Login to Msft.Cvgs mail </a></li>
+                    <li><a href="https://outlook.office365.com" style="color:cornflowerblue;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-size:medium" target="_blank"> Login to Convergys.com or work account </a></li>
+                    <li><a href="http://quickconnect.convergys.com" style="color:cornflowerblue;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-size:medium" target="_blank"> Login to QuickConnect</a></li>
+                </ul>
+            </div>
+            <div id="right">
+                <ul style="list-style-type:disc;text-align:left">
+                    <LH class="w3-container " style="font-size:large;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif"><b><u>Tools:</u></b> </LH>
+                    <li><a href="http://estartcvg.na.convergys.com/" style="color:cornflowerblue;text-align:match-parent;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-size:medium" target="_blank">Login to ESTART</a></li>
+                    <li><a href="https://www.osupportweb.com/admin/issues/" style="color:cornflowerblue;text-align:match-parent;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-size:medium" target="_blank">Login to HelpShift</a></li>
+                    <li><a href="https://owa.agent.cvgs.net/owa" style="color:cornflowerblue;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-size:medium" target="_blank"> Login to Msft.Cvgs mail </a></li>
+                    <li><a href="https://account.live.com" style="color:cornflowerblue;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-size:medium" target="_blank"> Login to Convergys.com or work account </a></li>
+                    <li><a href="https://home.ep.microsoft.com" style="color:cornflowerblue; text-align:match-parent;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-size:medium" target="_blank">Login to Partners Home</a></li>
+                    <li><a href="https://vkbexternal.partners.extranet.microsoft.com/" style="color:cornflowerblue; text-align:match-parent;font-size:medium;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;" target="_blank">VKB Portal</a></li>
+
+                </ul>
+            </div>
+            <div id="center">
+                <ul style="list-style-type:disc;text-align:left">
+                    <LH class="w3-container " style="font-size:large;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif"><b><u>Microsoft Quicks:</u></b> </LH>
+                    <li><a href="https://consumer.vmasvdi.com/" style="color:cornflowerblue;text-align:match-parent;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-size:medium" target="_blank">Login to VDI</a></li>
+                    <li><a href="https://performancemanager8.successfactors.com/sf/home?company=microsof01P2&loginMethod=SSO&_s.crb=Qbj4%252bsPxsX3GViqE08uoaABUrGg%253d#Shell-home" style="color:cornflowerblue;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-size:medium" target="_blank"> Login to SuccessFactor </a></li>
+                    <li><a href="https://account.live.com" style="color:cornflowerblue;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-size:medium" target="_blank"> Login to MSNCS </a></li>
+                    <li><a href="https://home.ep.microsoft.com" style="color:cornflowerblue; text-align:match-parent;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-size:medium" target="_blank">Login to Partners Home</a></li>
+                    <li><a href="https://vkbexternal.partners.extranet.microsoft.com/" style="color:cornflowerblue; text-align:match-parent;font-size:medium;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;" target="_blank">VKB Portal</a></li>
+
+                </ul>
+            </div>
+        </Center>
+    </div>
+        <!--<img src="CCgirl.jpg" alt="Officeimg" width="100" height="100"> -->
+    <div class="w3-panel w3-white w3-card-4 w3-large w3-serif">
+        <p><center>
+    <strong>
+
+        WHERE REACHING YOUR WORK ESSENTIALS IS MADE EASIER FOR YOU
+
+    </strong>
+</center>
+
+        </p>
+        </div>
+</body>
+</html>
